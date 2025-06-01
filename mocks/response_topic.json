@@ -1,0 +1,382 @@
+{
+    "id": 5966187397430,
+    "admin_graphql_api_id": "gid://shopify/Order/5966187397430",
+    "app_id": 5690175,
+    "browser_ip": null,
+    "buyer_accepts_marketing": true,
+    "cancel_reason": null,
+    "cancelled_at": null,
+    "cart_token": null,
+    "checkout_id": null,
+    "checkout_token": null,
+    "client_details": null,
+    "closed_at": null,
+    "confirmation_number": "KY2ZH0AHW",
+    "confirmed": true,
+    "contact_email": "espinosalarry111@gmail.com",
+    "created_at": "2024-06-10T18:58:38-05:00",
+    "currency": "COP",
+    "current_subtotal_price": "99000.00",
+    "current_subtotal_price_set": {
+        "shop_money": {
+            "amount": "99000.00",
+            "currency_code": "COP"
+        },
+        "presentment_money": {
+            "amount": "99000.00",
+            "currency_code": "COP"
+        }
+    },
+    "current_total_additional_fees_set": null,
+    "current_total_discounts": "0.00",
+    "current_total_discounts_set": {
+        "shop_money": {
+            "amount": "0.00",
+            "currency_code": "COP"
+        },
+        "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "COP"
+        }
+    },
+    "current_total_duties_set": null,
+    "current_total_price": "112000.00",
+    "current_total_price_set": {
+        "shop_money": {
+            "amount": "112000.00",
+            "currency_code": "COP"
+        },
+        "presentment_money": {
+            "amount": "112000.00",
+            "currency_code": "COP"
+        }
+    },
+    "current_total_tax": "0.00",
+    "current_total_tax_set": {
+        "shop_money": {
+            "amount": "0.00",
+            "currency_code": "COP"
+        },
+        "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "COP"
+        }
+    },
+    "customer_locale": null,
+    "device_id": null,
+    "discount_codes": [],
+    "email": "espinosalarry111@gmail.com",
+    "estimated_taxes": false,
+    "financial_status": "pending",
+    "fulfillment_status": null,
+    "landing_site": null,
+    "landing_site_ref": null,
+    "location_id": null,
+    "merchant_of_record_app_id": null,
+    "name": "#1810",
+    "note": null,
+    "note_attributes": [
+        {
+            "name": "Country code",
+            "value": "CO"
+        },
+        {
+            "name": "Nombre",
+            "value": "Luz miriam"
+        },
+        {
+            "name": "Apellido",
+            "value": "Parada espinosa"
+        },
+        {
+            "name": "Teléfono",
+            "value": "3234872183"
+        },
+        {
+            "name": "Dirección",
+            "value": "Gachancipa/Vereda roble sur/ sector san Marino / al lado del restaurante el cerezo"
+        },
+        {
+            "name": "Departamento",
+            "value": "CUN"
+        },
+        {
+            "name": "Ciudad",
+            "value": "Gachancipa"
+        },
+        {
+            "name": "Correo electrónico",
+            "value": "espinosalarry111@gmail.com"
+        },
+        {
+            "name": "IP address",
+            "value": "179.51.123.197"
+        }
+    ],
+    "number": 810,
+    "order_number": 1810,
+    "order_status_url": "https://sacatusmejores5.com/82331959606/orders/cc6c6822ec7b20aa8a3e5f28b752bbb7/authenticate?key=0610725d80cc1d32bd6cabf8d5006fd5",
+    "original_total_additional_fees_set": null,
+    "original_total_duties_set": null,
+    "payment_gateway_names": [
+        "Cash on Delivery (COD)"
+    ],
+    "phone": "+573234872183",
+    "po_number": null,
+    "presentment_currency": "COP",
+    "processed_at": "2024-06-10T18:58:38-05:00",
+    "reference": null,
+    "referring_site": null,
+    "source_identifier": null,
+    "source_name": "5690175",
+    "source_url": null,
+    "subtotal_price": "99000.00",
+    "subtotal_price_set": {
+        "shop_money": {
+            "amount": "99000.00",
+            "currency_code": "COP"
+        },
+        "presentment_money": {
+            "amount": "99000.00",
+            "currency_code": "COP"
+        }
+    },
+    "tags": "releasit_cod_form",
+    "tax_exempt": false,
+    "tax_lines": [],
+    "taxes_included": false,
+    "test": false,
+    "token": "cc6c6822ec7b20aa8a3e5f28b752bbb7",
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+        "shop_money": {
+            "amount": "0.00",
+            "currency_code": "COP"
+        },
+        "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "COP"
+        }
+    },
+    "total_line_items_price": "99000.00",
+    "total_line_items_price_set": {
+        "shop_money": {
+            "amount": "99000.00",
+            "currency_code": "COP"
+        },
+        "presentment_money": {
+            "amount": "99000.00",
+            "currency_code": "COP"
+        }
+    },
+    "total_outstanding": "112000.00",
+    "total_price": "112000.00",
+    "total_price_set": {
+        "shop_money": {
+            "amount": "112000.00",
+            "currency_code": "COP"
+        },
+        "presentment_money": {
+            "amount": "112000.00",
+            "currency_code": "COP"
+        }
+    },
+    "total_shipping_price_set": {
+        "shop_money": {
+            "amount": "13000.00",
+            "currency_code": "COP"
+        },
+        "presentment_money": {
+            "amount": "13000.00",
+            "currency_code": "COP"
+        }
+    },
+    "total_tax": "0.00",
+    "total_tax_set": {
+        "shop_money": {
+            "amount": "0.00",
+            "currency_code": "COP"
+        },
+        "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "COP"
+        }
+    },
+    "total_tip_received": "0.00",
+    "total_weight": 722,
+    "updated_at": "2024-06-10T18:58:39-05:00",
+    "user_id": null,
+    "billing_address": {
+        "first_name": "Luz miriam",
+        "address1": "Gachancipa/Vereda roble sur/ sector san Marino / al lado del restaurante el cerezo",
+        "phone": "+573234872183",
+        "city": "Gachancipa",
+        "zip": "-",
+        "province": "Cundinamarca",
+        "country": "Colombia",
+        "last_name": "Parada espinosa",
+        "address2": null,
+        "company": null,
+        "latitude": null,
+        "longitude": null,
+        "name": "Luz miriam Parada espinosa",
+        "country_code": "CO",
+        "province_code": "CUN"
+    },
+    "customer": {
+        "id": 8114155880758,
+        "email": "espinosalarry111@gmail.com",
+        "created_at": "2024-06-10T18:32:58-05:00",
+        "updated_at": "2024-06-10T18:58:38-05:00",
+        "first_name": "Luz miriam",
+        "last_name": "Parada espinosa",
+        "state": "disabled",
+        "note": null,
+        "verified_email": true,
+        "multipass_identifier": null,
+        "tax_exempt": false,
+        "phone": "+573234872183",
+        "email_marketing_consent": {
+            "state": "subscribed",
+            "opt_in_level": "single_opt_in",
+            "consent_updated_at": "2024-06-10T18:33:32-05:00"
+        },
+        "sms_marketing_consent": {
+            "state": "not_subscribed",
+            "opt_in_level": "single_opt_in",
+            "consent_updated_at": null,
+            "consent_collected_from": "OTHER"
+        },
+        "tags": "",
+        "currency": "COP",
+        "tax_exemptions": [],
+        "admin_graphql_api_id": "gid://shopify/Customer/8114155880758",
+        "default_address": {
+            "id": 10165332803894,
+            "customer_id": 8114155880758,
+            "first_name": "Luz miriam",
+            "last_name": "Parada espinosa",
+            "company": null,
+            "address1": "Gachancipa/Vereda roble sur/ sector san Marino / al lado del restaurante el cerezo",
+            "address2": null,
+            "city": "Gachancipa",
+            "province": "Cundinamarca",
+            "country": "Colombia",
+            "zip": "-",
+            "phone": "+573234872183",
+            "name": "Luz miriam Parada espinosa",
+            "province_code": "CUN",
+            "country_code": "CO",
+            "country_name": "Colombia",
+            "default": true
+        }
+    },
+    "discount_applications": [],
+    "fulfillments": [],
+    "line_items": [
+        {
+            "id": 15216193470774,
+            "admin_graphql_api_id": "gid://shopify/LineItem/15216193470774",
+            "attributed_staffs": [],
+            "current_quantity": 1,
+            "fulfillable_quantity": 1,
+            "fulfillment_service": "manual",
+            "fulfillment_status": null,
+            "gift_card": false,
+            "grams": 722,
+            "name": "Zapatillas Tenis Alcón para Microfutbol y Futsal. - 38 / Blanco-Verde Chispas",
+            "price": "99000.00",
+            "price_set": {
+                "shop_money": {
+                    "amount": "99000.00",
+                    "currency_code": "COP"
+                },
+                "presentment_money": {
+                    "amount": "99000.00",
+                    "currency_code": "COP"
+                }
+            },
+            "product_exists": true,
+            "product_id": 8931624845622,
+            "properties": [],
+            "quantity": 1,
+            "requires_shipping": true,
+            "sku": "",
+            "taxable": true,
+            "title": "Zapatillas Tenis Alcón para Microfutbol y Futsal.",
+            "total_discount": "0.00",
+            "total_discount_set": {
+                "shop_money": {
+                    "amount": "0.00",
+                    "currency_code": "COP"
+                },
+                "presentment_money": {
+                    "amount": "0.00",
+                    "currency_code": "COP"
+                }
+            },
+            "variant_id": 48589550584118,
+            "variant_inventory_management": "shopify",
+            "variant_title": "38 / Blanco-Verde Chispas",
+            "vendor": "Saca Tus Mejores 5",
+            "tax_lines": [],
+            "duties": [],
+            "discount_allocations": []
+        }
+    ],
+    "payment_terms": null,
+    "refunds": [],
+    "shipping_address": {
+        "first_name": "Luz miriam",
+        "address1": "Gachancipa/Vereda roble sur/ sector san Marino / al lado del restaurante el cerezo",
+        "phone": "+573234872183",
+        "city": "Gachancipa",
+        "zip": "-",
+        "province": "Cundinamarca",
+        "country": "Colombia",
+        "last_name": "Parada espinosa",
+        "address2": null,
+        "company": null,
+        "latitude": 4.9759451,
+        "longitude": -73.89140499999999,
+        "name": "Luz miriam Parada espinosa",
+        "country_code": "CO",
+        "province_code": "CUN"
+    },
+    "shipping_lines": [
+        {
+            "id": 4837664293174,
+            "carrier_identifier": null,
+            "code": "Bogota y Cundinamarca",
+            "discounted_price": "13000.00",
+            "discounted_price_set": {
+                "shop_money": {
+                    "amount": "13000.00",
+                    "currency_code": "COP"
+                },
+                "presentment_money": {
+                    "amount": "13000.00",
+                    "currency_code": "COP"
+                }
+            },
+            "is_removed": false,
+            "phone": null,
+            "price": "13000.00",
+            "price_set": {
+                "shop_money": {
+                    "amount": "13000.00",
+                    "currency_code": "COP"
+                },
+                "presentment_money": {
+                    "amount": "13000.00",
+                    "currency_code": "COP"
+                }
+            },
+            "requested_fulfillment_service_id": null,
+            "source": null,
+            "title": "Bogota y Cundinamarca",
+            "tax_lines": [],
+            "discount_allocations": []
+        }
+    ]
+}
