@@ -38,4 +38,93 @@ const GetOrderID = async (orderID: string) => {
   return response;
 };
 
-export { GetOrderID };
+const CreateOrder = async ({
+  currency = "COP",
+  lineItems = [],
+  totalAmount,
+}: {
+  currency?: string;
+  lineItems: {
+    title: string;
+    quantity: number;
+    price: number;
+    taxAmount?: number;
+    taxRate?: number;
+    taxTitle?: string;
+  }[];
+  totalAmount: number;
+}) => {
+  const graphqlQuery = {
+    query: `
+      mutation orderCreate($order: OrderCreateInput!) {
+        orderCreate(order: $order) {
+          userErrors {
+            field
+            message
+          }
+          order {
+            id
+            name
+            tags
+          }
+        }
+      }
+    `,
+    variables: {
+      order: {
+        currency,
+        note: "Orden generada automáticamente por IA",
+        tags: ["Creado por IA"],
+        lineItems: lineItems.map((item) => ({
+          title: item.title,
+          quantity: item.quantity,
+          priceSet: {
+            shopMoney: {
+              amount: item.price,
+              currencyCode: currency,
+            },
+          },
+          ...(item.taxAmount
+            ? {
+                taxLines: [
+                  {
+                    priceSet: {
+                      shopMoney: {
+                        amount: item.taxAmount,
+                        currencyCode: currency,
+                      },
+                    },
+                    rate: item.taxRate ?? 0.0,
+                    title: item.taxTitle ?? "IVA",
+                  },
+                ],
+              }
+            : {}),
+        })),
+        transactions: [
+          {
+            kind: "SALE",
+            status: "SUCCESS",
+            amountSet: {
+              shopMoney: {
+                amount: totalAmount,
+                currencyCode: currency,
+              },
+            },
+          },
+        ],
+      },
+    },
+  };
+
+  const response = await axios.post(SHOPIFY_API_URL, graphqlQuery, {
+    headers: {
+      "Content-Type": "application/json",
+      "X-Shopify-Access-Token": SHOPIFY_ACCESS_TOKEN,
+    },
+  });
+
+  return response.data;
+};
+
+export { CreateOrder, GetOrderID };

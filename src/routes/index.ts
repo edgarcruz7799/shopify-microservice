@@ -1,5 +1,5 @@
 import { Router, Request, Response } from "express";
-import { SubmitStockMultiple } from "../controllers";
+import { SubmitStockMultiple, CreateOrder } from "../controllers";
 import auth from "../middlewares/Auth";
 
 export default function routes() {
@@ -9,6 +9,7 @@ export default function routes() {
     res.send("ok");
   });
   router.post("/stock", auth, SubmitStockMultiple);
+  router.post("/create-order", auth, CreateOrder);
 
   return router;
 }
